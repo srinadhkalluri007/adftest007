@@ -1,0 +1,15 @@
+{
+	"name": "dfsritest007",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4e35b926-421a-4bba-a73f-8978cfdbc890",
+		"tenantId": "744ff200-3eec-4207-8671-60ac34cc31b3"
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"name": "LS_lookupdata",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "PAVANI-PC\\SQLEXPRESS",
+			"database": "college",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "srinadhazure",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI1MTYxZmEyOS04YWZkLTRkMmUtODcwYi03YzY3ODIwNzg1MzgiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SelfHosted",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
