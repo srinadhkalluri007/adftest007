@@ -29,6 +29,26 @@
 	},
 	"resources": [
 		{
+			"name": "[concat(parameters('factoryName'), '/deletefile')]",
+			"type": "Microsoft.DataFactory/factories/datasets",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"linkedServiceName": {
+					"referenceName": "LS_DELETE_FILE",
+					"type": "LinkedServiceReference"
+				},
+				"annotations": [],
+				"type": "Binary",
+				"typeProperties": {
+					"location": {
+						"type": "AzureBlobFSLocation",
+						"fileSystem": "output"
+					}
+				}
+			},
+			"dependsOn": []
+		},
+		{
 			"name": "[concat(parameters('factoryName'), '/ds_for_each_csv')]",
 			"type": "Microsoft.DataFactory/factories/datasets",
 			"apiVersion": "2018-06-01",
@@ -400,7 +420,9 @@
 				"annotations": [],
 				"lastPublishTime": "2026-07-06T15:41:37Z"
 			},
-			"dependsOn": []
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/datasets/deletefile')]"
+			]
 		},
 		{
 			"name": "[concat(parameters('factoryName'), '/PL_SWITCH')]",
