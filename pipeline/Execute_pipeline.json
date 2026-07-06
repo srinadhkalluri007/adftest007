@@ -1,0 +1,29 @@
+{
+	"name": "Execute_pipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "Execute_Pipeline1",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"policy": {
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "PL_SWITCH",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true,
+					"parameters": {
+						"Action": "Copy"
+					}
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2026-07-06T16:41:09Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
