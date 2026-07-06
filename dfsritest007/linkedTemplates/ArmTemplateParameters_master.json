@@ -1,0 +1,156 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dfsritest007"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"DS_delete_file_006_accountKey": {
+			"value": ""
+		},
+		"LS_COPY_accountKey": {
+			"value": ""
+		},
+		"LS_COPY_GEN2_007_accountKey": {
+			"value": ""
+		},
+		"LS_COPY_SALES_accountKey": {
+			"value": ""
+		},
+		"LS_COPY_SWITCH_accountKey": {
+			"value": ""
+		},
+		"LS_COPY_SWITCH_007_accountKey": {
+			"value": ""
+		},
+		"LS_COPY_SWITCH_GEN2_accountKey": {
+			"value": ""
+		},
+		"LS_DELETE_FILE_accountKey": {
+			"value": ""
+		},
+		"LS_EACH_COPY_accountKey": {
+			"value": ""
+		},
+		"LS_LOAD_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_LOOKUP_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_LOOKUP_gen2_accountKey": {
+			"value": ""
+		},
+		"LS_METADATA_accountKey": {
+			"value": ""
+		},
+		"LS_METADATA_EACH_accountKey": {
+			"value": ""
+		},
+		"LS_copy_gen2_accountKey": {
+			"value": ""
+		},
+		"LS_delete_file_007_accountKey": {
+			"value": ""
+		},
+		"LS_lookupdata_password": {
+			"value": ""
+		},
+		"Ls_delete_007_accountKey": {
+			"value": ""
+		},
+		"Lslookup_accountKey": {
+			"value": ""
+		},
+		"linkedService1_connectionString": {
+			"value": ""
+		},
+		"linkedService2_connectionString": {
+			"value": ""
+		},
+		"linkedService3_connectionString": {
+			"value": ""
+		},
+		"ls_for_each_csv_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlstest007.dfs.core.windows.net/"
+		},
+		"DS_delete_file_006_properties_typeProperties_url": {
+			"value": "https://adlstest007.dfs.core.windows.net/"
+		},
+		"LS_COPY_properties_typeProperties_url": {
+			"value": "https://adlstest007.dfs.core.windows.net/"
+		},
+		"LS_COPY_GEN2_007_properties_typeProperties_url": {
+			"value": "https://adlstest007.dfs.core.windows.net/"
+		},
+		"LS_COPY_SALES_properties_typeProperties_url": {
+			"value": "https://adlstest007.dfs.core.windows.net/"
+		},
+		"LS_COPY_SWITCH_properties_typeProperties_url": {
+			"value": "https://adlstest007.dfs.core.windows.net/"
+		},
+		"LS_COPY_SWITCH_007_properties_typeProperties_url": {
+			"value": "https://adlstest007.dfs.core.windows.net/"
+		},
+		"LS_COPY_SWITCH_GEN2_properties_typeProperties_url": {
+			"value": "https://adlstest007.dfs.core.windows.net/"
+		},
+		"LS_DELETE_FILE_properties_typeProperties_url": {
+			"value": "https://adlstest007.dfs.core.windows.net/"
+		},
+		"LS_EACH_COPY_properties_typeProperties_url": {
+			"value": "https://adlstest007.dfs.core.windows.net/"
+		},
+		"LS_LOAD_CSV_properties_typeProperties_url": {
+			"value": "https://adlstest007.dfs.core.windows.net/"
+		},
+		"LS_LOOKUP_CSV_properties_typeProperties_url": {
+			"value": "https://adlstest007.dfs.core.windows.net/"
+		},
+		"LS_LOOKUP_gen2_properties_typeProperties_url": {
+			"value": "https://adlstest007.dfs.core.windows.net/"
+		},
+		"LS_METADATA_properties_typeProperties_url": {
+			"value": "https://adlstest007.dfs.core.windows.net/"
+		},
+		"LS_METADATA_EACH_properties_typeProperties_url": {
+			"value": "https://adlstest007.dfs.core.windows.net/"
+		},
+		"LS_copy_gen2_properties_typeProperties_url": {
+			"value": "https://adlstest007.dfs.core.windows.net/"
+		},
+		"LS_delete_file_007_properties_typeProperties_url": {
+			"value": "https://adlstest007.dfs.core.windows.net/"
+		},
+		"LS_lookupdata_properties_typeProperties_server": {
+			"value": "PAVANI-PC\\SQLEXPRESS"
+		},
+		"LS_lookupdata_properties_typeProperties_database": {
+			"value": "college"
+		},
+		"LS_lookupdata_properties_typeProperties_userName": {
+			"value": "srinadhazure"
+		},
+		"Ls_delete_007_properties_typeProperties_url": {
+			"value": "https://adlstest007.dfs.core.windows.net/"
+		},
+		"Lslookup_properties_typeProperties_url": {
+			"value": "https://adlstest007.dfs.core.windows.net/"
+		},
+		"ls_for_each_csv_properties_typeProperties_url": {
+			"value": "https://adlstest007.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
